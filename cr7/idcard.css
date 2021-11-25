@@ -1,0 +1,192 @@
+@media print{
+.noprint{
+display:none;
+}
+}
+
+div#idbody{ 
+width:350px;
+height:230px;
+//background-color:red; 
+border-radius:10px;
+padding:0;
+float:left;
+
+}
+div#idbody div.header{
+width:100%;
+height:30%;
+background-color:yellow;
+margin:0;
+}
+div#idbody div.header p{
+margin:0;
+font-family:kristen ITC;
+font-family:Comic Sans MS;
+text-align:center-left;
+padding-right:15px;
+line-height:2px;
+}
+div#idbody div.header p span{
+font-size:16px;
+font-family:"Times New Roman", Times, serif;
+}
+div#idbody div.body{
+width:100%;
+height:24%;
+background:-moz-linear-gradient(left,white,gray);
+margin:4px;
+
+
+}
+div#idbody div.body p{
+margin:230px;
+padding:230px;
+line-height:20px;
+font-size:18px;
+text-align:center;
+padding-right:16px;
+}
+div#idbody div.body div.data{
+width:100%;
+height:75%;
+//background:red;
+margin:40%;
+clear:both;
+}
+div#idbody div.body div.data div.details{
+width:60%;
+height:98%;
+//background:blue;
+float:left;
+}
+div#idbody div.body div.data div.pic{
+width:39%;
+height:2%;
+//background:cyan;
+float:left;
+}
+div#idbody  div.foot{
+width:100%;
+height:54%;
+//background:red;
+
+}
+div#idbody  div.print{
+float:left;
+}
+
+div#certbody{
+width:750px;
+height:950px;
+background-color:rgba(173,203,218,1);
+margin:0px auto;
+float:center;
+padding:25px;
+background-image:url('bgimage.png');
+}
+div#certbody div.head{
+width:100%;
+height:16%;
+//background:green;
+margin:1%;
+}
+div#certbody div.head div.sidea{
+width:75%;
+height:100%;
+//background:blueviolet;
+margin:0;
+float:left;
+}
+div#certbody div.head div.sidea P{
+margin:0;
+padding: 0.1em;
+line-height: 20px;
+font-size:17px;
+text-align:center;
+padding-right:10px;
+}
+div#certbody div.head div.sidea p:first-child{
+
+font-size:20px;
+text-align:center;
+
+}
+div#certbody div.head div.sideb{
+width:17%;
+height:60%;
+//background:green;
+
+float:left;
+}
+div#certbody div.head div.sideb img{
+border:1px solid #000;
+margin:0% 5%;
+width:100%;
+height:180%;
+}
+div#certbody div.bodymain{
+width:100%;
+height:60%;
+//background:yellow;
+margin:0;
+}
+div#certbody div.bodymain div.bodya{
+width:94%;
+height:60%;
+padding-left:4%;
+}
+div#certbody div.bodymain div.bodya p{
+
+font-size:15px;
+line-height:15px;
+font-style:italic;
+
+}
+div#certbody div.bodymain div.bodya ol{
+padding:0;
+line-height:15px;
+font-size:15px;
+padding-top:0;
+}
+div#certbody div.bodymain div.bodya ol li{
+
+list-style:decimal;
+}
+
+div#certbody div.bodymain div.bodyb{
+width:100%;
+height:35%;
+//background:red;
+
+}
+div#certbody div.bodymain div.bodyb div{
+float:left;
+height:100%;
+margin:0;
+}
+div#certbody div.bodymain div.bodyb div p{
+font-size:12px;
+margin:0;
+padding:0;
+line-height:15px;
+text-align:center;
+}
+
+#myDiv {
+  width: 280px;
+  color: #dfdfdf;
+  padding: 0px;
+  -webkit-transition: all 4s ease-out 0s;
+  -moz-transition: all 4s ease-out 0s;
+  -ms-transition: all 4s ease-out 0s;
+  -o-transition: all 4s ease-out 0s;
+  transition: all 4s ease-out 0s;
+  height:20px; width: 60px;
+}
+#myDiv:hover {
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
+  color: #000;
+} 
